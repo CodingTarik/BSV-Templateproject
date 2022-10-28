@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "run bsc",
+        "command": "./output/RUN_DEVICE",
+        "type": "shell",
+        "dependsOn":["compile"]
+    }, {
+        "label": "compile",
+        "command": "make",
+        "type": "shell"
+    }]
+}
